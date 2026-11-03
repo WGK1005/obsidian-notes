@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "496301eea3d02870",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SLAM/00_SLAM全栈学习路径与建图项目总览.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00_SLAM全栈学习路径与建图项目总览"
+            }
+          },
+          {
             "id": "5ba10b4cb267160f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SLAM/感知建图.md",
+                "file": "SLAM/60_路径搜索前端_YAstar人工势场_SDF距离变换与64位动态掩码详解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "感知建图"
-            }
-          },
-          {
-            "id": "f17b9d18803ade76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SLAM/50_实战排坑手册_边缘端部署_性能压测与故障速查录.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "50_实战排坑手册_边缘端部署_性能压测与故障速查录"
+              "title": "60_路径搜索前端_YAstar人工势场_SDF距离变换与64位动态掩码详解"
             }
           }
         ],
@@ -214,14 +214,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f17b9d18803ade76",
+  "active": "5ba10b4cb267160f",
   "lastOpenFiles": [
+    "SLAM/00_SLAM全栈学习路径与建图项目总览.md",
     "SLAM/感知建图.md",
+    "SLAM/60_路径搜索前端_YAstar人工势场_SDF距离变换与64位动态掩码详解.md",
+    "SLAM/70_轨迹优化后端_MinimumSnap微分平坦_方形安全走廊与时间归一化详解.md",
+    "2026-11-03.md",
+    "SLAM/80_导航控制闭环_SCURM梯度脱困_纯跟踪控制与十大调参避坑指南.md",
+    "SLAM/30_SLAM建图_FAST-LIO2紧耦合激光惯导核心剖析.md",
+    "SLAM/40_全局重定位_Open3D无先验冷启动GlobalMatcher_V2详解.md",
     "SLAM/50_实战排坑手册_边缘端部署_性能压测与故障速查录.md",
     "SLAM/10_数学底座_三维刚体变换_李代数与流形优化.md",
-    "SLAM/00_SLAM全栈学习路径与建图项目总览.md",
-    "SLAM/40_全局重定位_Open3D无先验冷启动GlobalMatcher_V2详解.md",
-    "SLAM/30_SLAM建图_FAST-LIO2紧耦合激光惯导核心剖析.md",
     "SLAM/A-start和DIJKSTRA.md",
     "SLAM/20_硬件底层_传感器机理与时空标定工程实践.md",
     "pic/map_1021_1050.png",
