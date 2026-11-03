@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SLAM/感知建图.md",
+                "file": "SLAM/50_实战排坑手册_边缘端部署_性能压测与故障速查录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "感知建图"
+              "title": "50_实战排坑手册_边缘端部署_性能压测与故障速查录"
             }
           }
         ],
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 367.5
   },
   "left-ribbon": {
     "hiddenItems": {
