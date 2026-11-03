@@ -27,22 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SLAM/00_SLAM全栈学习路径与建图项目总览.md",
+                "file": "SLAM/感知建图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_SLAM全栈学习路径与建图项目总览"
-            }
-          },
-          {
-            "id": "c370ab50562809cb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "感知建图"
             }
           }
         ],
@@ -227,14 +217,14 @@
   },
   "active": "f17b9d18803ade76",
   "lastOpenFiles": [
+    "SLAM/感知建图.md",
     "SLAM/50_实战排坑手册_边缘端部署_性能压测与故障速查录.md",
+    "SLAM/10_数学底座_三维刚体变换_李代数与流形优化.md",
     "SLAM/00_SLAM全栈学习路径与建图项目总览.md",
     "SLAM/40_全局重定位_Open3D无先验冷启动GlobalMatcher_V2详解.md",
     "SLAM/30_SLAM建图_FAST-LIO2紧耦合激光惯导核心剖析.md",
-    "SLAM/感知建图.md",
     "SLAM/A-start和DIJKSTRA.md",
     "SLAM/20_硬件底层_传感器机理与时空标定工程实践.md",
-    "SLAM/10_数学底座_三维刚体变换_李代数与流形优化.md",
     "pic/map_1021_1050.png",
     "pic/real_robot_reloc_location.png",
     "pic/reloc_process_result.png",
