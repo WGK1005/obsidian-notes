@@ -58,7 +58,7 @@ $$\mathbf{J}_i = \begin{bmatrix} (\mathbf{p}_i \times \mathbf{n}_i)^T & \mathbf{
 将地面法向量 $\mathbf{n}_{ground}$ 代入雅可比矩阵中对应平移增量 $\Delta \mathbf{t} = [\Delta t_x, \Delta t_y, \Delta t_z]^T$ 的分量：
 $$\mathbf{J}_{i, \Delta \mathbf{t}} = \mathbf{n}_{ground}^T = \begin{bmatrix} 0, & 0, & 1 \end{bmatrix}$$
 
-- **致命结论**：
+- **结论**：
   雅可比矩阵在水平平移分量 $\Delta t_x$ 与 $\Delta t_y$ 上的偏导**恒等于严格的零**！
   这意味着将地面点代入 Hessian 矩阵 $\mathbf{H} = \sum \mathbf{J}_i^T \mathbf{J}_i$ 时，$\mathbf{H}$ 矩阵在水平方向的特征值接近于 0，优化求解器条件数无限恶化。小车在平地上即便沿 $X$ 或 $Y$ 错位滑移几十厘米，地面点到面的几何残差几乎毫无变化，算法对水平漂移彻底“失明”！
 
