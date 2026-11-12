@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274.16668701171875
   },
   "right": {
     "id": "7411d1f10100b389",
@@ -213,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ba10b4cb267160f",
+  "active": "c09ddcc2f9da706e",
   "lastOpenFiles": [
     "SLAM/30_SLAM建图_FAST-LIO2紧耦合激光惯导核心剖析.md",
     "SLAM/60_路径搜索前端_YAstar人工势场_SDF距离变换与64位动态掩码详解.md",
