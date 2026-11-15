@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Great Github/高程图.md",
+                "file": "数学基础研究/一机器人状态估计的数学基础——向量、矩阵与协方差.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "高程图"
+              "title": "一机器人状态估计的数学基础——向量、矩阵与协方差"
             }
           }
         ],
@@ -212,6 +212,10 @@
   },
   "active": "05f0d1718cd9ab17",
   "lastOpenFiles": [
+    "Great Github/高程图.md",
+    "数学基础研究/一机器人状态估计的数学基础——向量、矩阵与协方差.md",
+    "数据结构/一，.md",
+    "数学基础研究",
     "高程图.md",
     "高程图-血泪史",
     "论文库/SLAM建图.md",
@@ -219,7 +223,6 @@
     "radar档案/01_Velodyne_VLP-16_三维激光雷达从零上手与避坑实战.md",
     "radar档案/00_Radar档案_选型矩阵与传感器通用排错指南.md",
     "Great Github/说明.md",
-    "Great Github/高程图.md",
     "Great Github/路径规划.md",
     "Great Github/SLAM建图.md",
     "SLAM/A-start和DIJKSTRA.md",
@@ -251,7 +254,6 @@
     "pic/1794119517fad2a80df58e8f0f47d526.jpg",
     "pic/Pasted image 20261027204630.png",
     "pic/Pasted image 20261027203250.png",
-    "欢迎.md",
     "未命名.base"
   ]
 }
