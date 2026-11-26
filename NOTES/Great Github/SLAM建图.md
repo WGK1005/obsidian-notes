@@ -1,7 +1,7 @@
 # SLAM 建图、定位与点云基础
 
 > 收录激光惯性里程计、多模态融合 SLAM、2D/3D 建图、重定位以及点云处理核心基础库。
-
+[[Great Github/说明|说明]]
 ---
 
 ## 一、 激光与多模态 SLAM / 里程计（LiDAR & Multi-Modal SLAM）
