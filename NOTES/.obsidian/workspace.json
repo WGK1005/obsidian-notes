@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ba10b4cb267160f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
             "id": "05f0d1718cd9ab17",
             "type": "leaf",
             "state": {
@@ -209,8 +199,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ba10b4cb267160f",
+  "active": "05f0d1718cd9ab17",
   "lastOpenFiles": [
+    "radar档案/04_大疆览沃_Livox_Mid-360_全向固态激光雷达从零上手与避坑实战.md",
     "Great Github/SLAM建图.md",
     "Great Github/高程图.md",
     "Great Github/路径规划.md",
@@ -247,7 +238,6 @@
     "数据结构",
     "SLAM",
     "pic",
-    "PIC.md",
     "pic/Pasted image 20261027212241.png",
     "pic/9edabde7d34a48063f024d330494b06e.jpg",
     "pic/1794119517fad2a80df58e8f0f47d526.jpg",
