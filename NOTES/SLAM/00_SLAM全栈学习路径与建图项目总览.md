@@ -153,6 +153,17 @@ flowchart TD
 │   └── main.cpp                 # 离线与仿真测试入口
 ```
 
+
+### 3. 精细化高程图与足式感知工作区（`~/elevation_ws` · `elevation` 分支）
+```bash
+~/elevation_ws/
+├── src/
+│   ├── stair_elevation_msgs/    # HeightScan17x11.msg (187点高度+有效性+悬空净空)
+│   └── stair_elevation_mapper/  # O(1) 2cm 环形高程图、SelfFilter、17x11 采样、绕桩纠偏
+│       ├── config/              # planner_elevation_2cm_map.yaml / rc_student_mid360_100q.yaml
+│       └── test/                # GTest 核心单测 (12 项全过)
+└── tools/                       # 2cm GridMap导出/回放、187点数值检查、ETH RSL 3D网格与HTML演示
+```
 ---
 
 ## 四、Obsidian 知识库模块导航（WikiLinks）
@@ -178,6 +189,13 @@ flowchart TD
    - 高阶多项式轨迹与微分平坦定理、方形飞行走廊（SFC Square）凸空间膨胀、时间归一化 $\tau = t/T$ 消除矩阵条件数恶化、全主元 LU 零空间闭式解 vs OSQP。
 8. **闭环控制与调参**：[[80_导航控制闭环_SCURM梯度脱困_纯跟踪控制与十大调参避坑指南]]
    - SCURM 负梯度脱困算法、速度前馈 Pure Pursuit 纯跟踪器、交替迭代中点插值收缩策略、规划调参十大致命陷阱全收录。
+
+
+### 🏔️ 第三部分：精细化高程图与足式感知契约
+9. **2cm 楼梯高程图与 RC2027 187点契约**：[[01_自研2cm楼梯高程图与RC2027_187点感知契约全复盘]]
+   - `RollingElevationGrid` $O(1)$ 环形缓冲、机体 3D `Self-Filter`、规划侧 `elevation + variance + valid_mask` 严格 `NaN` 空洞与位姿同源时钟、运控 RL `50Hz` 187 点契约及 6 大实战血泪排坑。
+10. **Mid-360 与 Agras 解锁实战**：[[04_大疆览沃_Livox_Mid-360_全向固态激光雷达从零上手与避坑实战]]
+   - Agras `0x55` `360°` 全周解锁、`probe_agras.sh` / `run_agras.sh` 与内置 IMU 联动配置。
 
 ---
 
